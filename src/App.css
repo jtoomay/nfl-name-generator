@@ -1,5 +1,19 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#root {
+  height: 100%;
+}
+
+html {
+  background: url(../public/nflLogos/football-background.jpeg);
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .App-logo {
@@ -35,4 +49,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#the-team {
+  text-align: center;
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 20px;
+}
+
+#team-header {
+  padding: 1em 1em 0 1em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #5fc9f8;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  width: 200px;
+  cursor: pointer;
 }
