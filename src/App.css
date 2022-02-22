@@ -5,9 +5,7 @@
   height: 100%;
 }
 
-html {
-  background: url(../public/nflLogos/football-background.jpeg);
-  background-repeat: no-repeat;
+#background {
 }
 
 .App {
@@ -81,4 +79,8 @@ button {
   border-radius: 15px;
   width: 200px;
   cursor: pointer;
+}
+body {
+  background: url(../public/nflLogos/football-background.jpeg);
+  background-repeat: no-repeat;
 }

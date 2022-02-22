@@ -1,8 +1,6 @@
 // This is everything with the teams
 
-import { logDOM } from "@testing-library/react";
 import React, { useEffect, useState } from "react";
-// import chiefs from "../public/nflLogos/chiefs.png";
 
 let nflTeams = [
   {
@@ -187,8 +185,6 @@ export default function Teams() {
   };
 
   let imageLink = `/nflLogos/${currentTeam.name}.png`;
-
-  console.log(imageLink);
 
   return (
     <div class="main-content">
